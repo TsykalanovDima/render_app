@@ -2,7 +2,7 @@ import requests
 import json
 
 url = 'https://render-app-6k9t.onrender.com/greet'
-data = {'name': 'Vitala'}
+data = {'name': 'Dima'}
 headers = {'Content-Type': 'application/json'}
 
 response = requests.post(url, headers=headers, data=json.dumps(data))
