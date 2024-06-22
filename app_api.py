@@ -4,14 +4,14 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def hello_world():
-    return 'Hello, World!'
+    return 'VITALA PIDAR!'
 
 @app.route('/greet', methods=['POST'])
 def greet():
     data = request.get_json()
     if 'name' in data:
         name = data['name']
-        return jsonify(message=f'Hello, {name}!')
+        return jsonify(message=f'PIDAR, {name}!')
     else:
         return jsonify(error='noName'), 400
 
