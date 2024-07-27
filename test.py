@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = 'https://render-app-teot.onrender.com/greet'
+url = 'https://render-app-ts05.onrender.com/greet'
 data = {'name': 'Vitala'}
 headers = {'Content-Type': 'application/json'}
 
